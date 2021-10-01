@@ -127,5 +127,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
+MEDIA_URL = '/media/'
+
+MEDIA_ROOT = 'vol/web/media' #미디어 파일 어디에 저장하냐
 
 AUTH_USER_MODEL = 'core.User'
